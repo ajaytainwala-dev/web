@@ -63,7 +63,7 @@ const AboutSec = () => {
   );
 };
 
-export const Mission = () => {
+  const Mission = () => {
   return (
     <>
       <Box
@@ -123,7 +123,7 @@ export const Mission = () => {
   );
 };
 
-export const Services = () => {
+  const Services = () => {
   const imageStyle = {
     borderRadius: "10px",
     border: "1px solid #fff",
@@ -233,7 +233,7 @@ export const Services = () => {
   );
 };
 
-export const Team = () => {
+  const Team = () => {
   const TeamMembers = [
     {
       name: "Vikram Tainwala",
@@ -352,7 +352,7 @@ export const Team = () => {
   );
 };
 
-export default function About() {
+ export default function About() {
   return (
     <>
       <Head>
