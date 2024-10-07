@@ -146,7 +146,7 @@ const page = () => {
 
       <div className="dark:bg-gray-900 py-4 px-5">
         <h5 className="text-center font-bold text-indigo-400">
-          *If you don't find the related course or subject, please contact the administrator.
+          *If you don&apos;t find the related course or subject, please contact the administrator.
         </h5>
       </div>
     </>
