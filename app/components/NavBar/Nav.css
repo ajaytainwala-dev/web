@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'edo';
+    src: url('../../font/edo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .navbar-heading {
+    font-family: 'edo', sans-serif;
+    letter-spacing: 2px;
+  }
