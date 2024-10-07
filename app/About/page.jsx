@@ -11,7 +11,7 @@ import Image from "next/image";
 import { Suspense, lazy } from "react";
 import Loading from "../components/Loading/Loading";
 
-export const AboutSec = () => {
+const AboutSec = () => {
   return (
     <Box>
       <Box className="bg-white dark:bg-gray-800 dark:text-gray-300 ">
