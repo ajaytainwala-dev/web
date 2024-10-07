@@ -2,6 +2,7 @@
   "name": "out",
   "version": "0.1.0",
   "private": true,
+   "main": "app/page.tsx",
   "scripts": {
     "dev": "next dev ",
     "build": "next build",
