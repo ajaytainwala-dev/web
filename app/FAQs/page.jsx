@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import Loading from "../components/Loading/Loading";
 import { useForm, Form } from "react-hook-form";
 
-export const Contact = () => {
+const Contact = () => {
   const {
     register,
     handleSubmit,
