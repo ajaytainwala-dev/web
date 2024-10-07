@@ -16,7 +16,7 @@ import { FaSchoolFlag } from "react-icons/fa6";
 import { MdOutlineAutoGraph } from "react-icons/md";
 
 // Hero&apos;s Section
-export const Hero = () => {
+  const Hero = () => {
   return (
     <>
       <Box
@@ -115,7 +115,7 @@ export const Hero = () => {
 };
 
 // About Section
-export const About = () => {
+  const About = () => {
   return (
     <>
       <section className="bg-slate-200 dark:bg-gray-900">
@@ -159,7 +159,7 @@ export const About = () => {
 };
 
 // Why Choose Us Section
-export const WhyChooseUs = () => {
+  const WhyChooseUs = () => {
   const WhyUs = [
     {
       name: "Experienced Faculties",
@@ -223,7 +223,7 @@ export const WhyChooseUs = () => {
   );
 };
 
-export const FeaturedCourses = () => {
+  const FeaturedCourses = () => {
   const courseList = [
     {
       icon: <IoMdSchool />,
@@ -314,7 +314,7 @@ export const FeaturedCourses = () => {
   );
 };
 // Call to Action (CTA)
-export const CTA = () => {
+  const CTA = () => {
   return (
     <>
       <section className="text-gray-600 dark:text-gray-300 bg-slate-200 dark:bg-gray-900 body-font">
@@ -352,7 +352,7 @@ type rev = {
 };
 
 // Review Section
-export const Review = () => {
+  const Review = () => {
   const Reviews: rev[] = [
     {
       name: "Khushi Patel",
