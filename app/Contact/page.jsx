@@ -181,4 +181,4 @@ const Page = () => {
   );
 };
 
-export default PageComponent;
+export default Page;
